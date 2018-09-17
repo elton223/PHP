@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^([^/]*)\.html$ /?controller=$1&page=index [L]
+RewriteRule ^([^/]*)/update/([^/]*)$ /?controller=$1&page=index&update=$2 [L]

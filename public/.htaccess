@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([a-z-]+)\.html$ /?controller=pages&page=$1 [L]
